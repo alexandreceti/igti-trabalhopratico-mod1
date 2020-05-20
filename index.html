@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Pratico</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="session">
+      <div class="control">
+        <p class="item">
+          <label for="">(R) Vermelho</label>
+          <input
+            class="input-radio"
+            type="range"
+            name="red"
+            id="rangeRed"
+            min="0"
+            max="255"
+          />
+          <input
+            class="input-text"
+            type="text"
+            name="textRed"
+            id="textRed"
+            disabled
+          />
+        </p>
+        <p class="item">
+          <label for="">(G) Verde</label>
+          <input
+            class="input-radio"
+            type="range"
+            name="green"
+            id="rangeGreen"
+            max="255"
+          />
+          <input
+            class="input-text"
+            type="text"
+            name="textGreen"
+            id="textGreen"
+            disabled
+          />
+        </p>
+        <p class="item">
+          <label for="">(B) Azul</label>
+          <input
+            class="input-radio"
+            type="range"
+            name="blue"
+            id="rangeBlue"
+            max="255"
+          />
+          <input
+            class="input-text"
+            type="text"
+            name="textBlue"
+            id="textBlue"
+            disabled
+          />
+        </p>
+      </div>
+      <div class="color-session">
+        <div class="cor" id="cor"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

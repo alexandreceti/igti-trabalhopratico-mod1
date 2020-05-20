@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.session {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+}
+.control {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.input-radio {
+  width: 200px;
+}
+
+.input-text {
+  max-width: 50px;
+}
+
+label {
+  width: 100px;
+  /* padding: 10px; */
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+  justify-content: space-around;
+}
+
+.cor {
+  justify-items: center;
+  width: 30vh ;
+  height: 30vh;
+  /* min-height: 50vh; */
+  border-radius: 10%;
+}
+
+.color-session {
+  display: flex;
+  justify-content: center;
+}
